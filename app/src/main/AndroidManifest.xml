@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+        <!-- Please put your client id here -->
+        <meta-data android:name="com.snapchat.kit.sdk.clientId" android:value="2b8e7987-feab-4767-9fd1-c4bf4fdb4cc8" />
+
+
     </application>
 
 </manifest>

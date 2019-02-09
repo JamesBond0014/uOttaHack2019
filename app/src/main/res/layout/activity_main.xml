@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgroundimg"
+    android:background= "@drawable/gradient"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -15,7 +15,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="4dp"
-        android:background="@color/orange"
+        android:background="@color/pinkish"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,9 +31,10 @@
                 android:id="@+id/pingBtn"
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
-                app:srcCompat="@drawable/pinglocation"
+                app:srcCompat="@drawable/location"
                 tools:layout_editor_absoluteX="248dp"
-                tools:layout_editor_absoluteY="214dp" />
+                tools:layout_editor_absoluteY="214dp"
+                tools:ignore="VectorDrawableCompat" />
 
             <TextView
                 android:id="@+id/pingBtnLabel"
@@ -55,9 +56,10 @@
                 android:id="@+id/recyleBtn"
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
-                app:srcCompat="@drawable/recyable"
+                app:srcCompat="@drawable/recyclable"
                 tools:layout_editor_absoluteX="248dp"
-                tools:layout_editor_absoluteY="214dp" />
+                tools:layout_editor_absoluteY="214dp"
+                tools:ignore="VectorDrawableCompat" />
 
             <TextView
                 android:id="@+id/recyleBtnLabel"
@@ -79,9 +81,10 @@
                 android:id="@+id/aboutBtn"
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
-                app:srcCompat="@drawable/aboutus"
+                app:srcCompat="@drawable/about"
                 tools:layout_editor_absoluteX="248dp"
-                tools:layout_editor_absoluteY="214dp" />
+                tools:layout_editor_absoluteY="214dp"
+                tools:ignore="VectorDrawableCompat" />
 
             <TextView
                 android:id="@+id/aboutBtnLabel"
@@ -103,9 +106,10 @@
                 android:id="@+id/howToBtn"
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
-                app:srcCompat="@drawable/howtouse"
+                app:srcCompat="@drawable/how"
                 tools:layout_editor_absoluteX="248dp"
-                tools:layout_editor_absoluteY="214dp" />
+                tools:layout_editor_absoluteY="214dp"
+                tools:ignore="VectorDrawableCompat" />
 
             <TextView
                 android:id="@+id/howToBtnLabel"
