@@ -35,7 +35,9 @@ app.get('/:keywordsSteph',(req,res) =>{
   let returnVal
   for (let i = 0;i<keywords.length;i++){
     returnVal = test.filter((a)=>{
-      return (a.keywords.search(keywords[i])>=0)
+      console.log(a);
+      const b = JSON.parse(a)
+      return (b.keywords.search(keywords[i])>=0)
     })
     console.log(returnVal);
     let r2

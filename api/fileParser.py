@@ -29,7 +29,7 @@ for i in a:
     string += "UNIQUESTRINGSPLIT"
 
 
-string = string[:-1]
+string = string[:-17]
 
 
 file = open("parsedWizard2.txt","w")
