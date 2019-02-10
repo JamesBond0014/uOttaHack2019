@@ -29,6 +29,7 @@ app.get('/:keywordsSteph',(req,res) =>{
       return (a.keywords.search(keywords[i])>=0)
     })
     console.log(returnVal);
+    let r2 = {stuff:returnVal}
     if (returnVal.length >0){
         if (returnVal.length >2){
           res.send(returnVal.slice(0,2))
