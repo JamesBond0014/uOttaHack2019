@@ -20,7 +20,6 @@ fs.readFile("parsedWizard2.txt",'utf8',(err,data)=>{
   if (err) throw error;
   test = data.split("UNIQUESTRINGSPLIT")
   app.listen(port, ()=>{
-    log(test[2])
     log(`Listening on port ${port}...`)
   })
 })
