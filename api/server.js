@@ -30,7 +30,12 @@ app.get('/:keywordsSteph',(req,res) =>{
     })
     console.log(returnVal);
     if (returnVal.length >0){
-        res.send(returnVal)
+        if (returnVal.length >2){
+          res.send(returnVal.slice(0,2))
+        } else {
+          res.send(returnVal)
+        }
+
         break
     }
   }
