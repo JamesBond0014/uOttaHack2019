@@ -5,4 +5,7 @@
     <color name="colorAccent">#37f178</color>
     <color name="orange">#ffeaa7</color>
     <color name="pinkish">#dfe6e9</color>
+    <color name="cool">#74b9ff</color>
+    <color name="white">#fff</color>
+    <color name="black">#555</color>
 </resources>

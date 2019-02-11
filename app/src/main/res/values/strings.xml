@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">receyable</string>
+    <string name="app_name">Enviro-bin</string>
+    <string name="app_permission_text">This app needs read permission</string>
 </resources>
